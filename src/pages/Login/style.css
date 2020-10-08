@@ -1,0 +1,36 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.login > a {
+  padding: 20px 50px;
+  border-radius: 100px;
+  background-color: #1db954;
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+}
+
+/* Mobile */
+@media screen and (min-width: 480px) {
+  .login > img {
+    width: 80vw;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .login > img {
+    width: 50vw;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 900px) {
+  .login > img {
+    width: 40vw;
+  }
+}
